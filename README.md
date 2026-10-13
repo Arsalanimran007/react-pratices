@@ -44,6 +44,8 @@ export default defineConfig([
 
 ```
 
+# react-pratices
+
 You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js

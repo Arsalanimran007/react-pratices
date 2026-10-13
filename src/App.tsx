@@ -1,22 +1,14 @@
-import { useState, useCallback } from "react";
-import Child from "./Child";
 
-
+import { useState, useMemo } from "react";
+import Count from "./components/Count";
+import Ref from "./components/Ref";
 
 function App() {
-  const [message, setMessage] = useState("");
 
-  const handleClick = () => {
-    setMessage("Button clicked!");
-    console.log("me render")
-  };
 
   return (
-    <>
-      <button onClick={handleClick}>Click Me</button>
-      <p>{message}</p>
-      <Child />
-    </>
+  //  <Count />
+  // <Ref />
   );
 }
 export default App;
