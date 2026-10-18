@@ -1,10 +1,9 @@
-import AxiosIns from "./components/AxiosIns";
+import RHF from "./components/RHF";
 
 const App = () => {
   return (
     <div>
-      <h1>Axios instance example</h1>
-      <AxiosIns />
+      <RHF />
     </div>
   );
 };
